@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Museo';
+  src: url("../fonts/MuseoSans-300.otf"),
+  url("../fonts/MuseoSans_500.otf"),
+  url("../fonts/MuseoSans_700.otf"),
+  url("../fonts/MuseoSans_900.otf");
+}
+img, object, embed, video {
+	/*max-width: 100%;*/
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img {
+	width: 100%;
+	border: none
+}
+
+/* ---------- Start General CSS ---------- */
+*{
+	padding: 0;
+	margin: 0;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+}
+a {
+	cursor: pointer !important;
+	outline: none !important;
+	border: none;
+	color: inherit;
+  color: #ec8224 !important;
+  text-decoration: none !important;
+}
+img {
+	border: none;
+}
+html, body {
+}
+body {
+  font-family: 'Roboto' !important;
+	color: #1F1F1F;
+  background-color: #f5f7f9 !important;
+  background-position: 0 0;
+  font-size: calc(1em + 1vw);
+  line-height: 1em;
+}
+.clear {
+	clear: both;
+}
+
+@media only screen and (min-width: 481px) {
+}
+@media only screen and (min-width: 820px) {
+}
